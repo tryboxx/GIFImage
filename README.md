@@ -1,10 +1,9 @@
 # GIFImage
 > Display GIFs in your SwiftUI project
 
-[![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
-[![codebeat-badge][codebeat-image]][codebeat-url]
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-orange.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+[![Twitter](https://img.shields.io/badge/twitter-@chrislowiec-blue.svg)](http://twitter.com/chrislowiec)
 
 A lightweight repository for putting GIF files into your project, available as a Swift Package.
 
@@ -48,12 +47,3 @@ Christopher Lowiec – [@chrislowiec](https://twitter.com/chrislowiec)
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/tryboxx/GIFImage](https://github.com/tryboxx/)
-
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
-[swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
-[codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
