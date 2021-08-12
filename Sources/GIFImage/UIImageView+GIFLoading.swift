@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#if os(iOS)
 extension UIImageView {
     
     public func loadGif(name: String) {
@@ -30,3 +31,29 @@ extension UIImageView {
     }
     
 }
+
+#elseif os(macOS)
+extension NSImageView {
+    
+    public func loadGif(name: String) {
+        DispatchQueue.global().async {
+            let image = NSImage.gif(name: name)
+            
+            DispatchQueue.main.async { [weak self] in
+                self?.image = image
+            }
+        }
+    }
+    
+    public func loadGif(asset: String) {
+        DispatchQueue.global().async {
+            let image = NSImage.gif(asset: asset)
+            
+            DispatchQueue.main.async {  [weak self] in
+                self?.image = image
+            }
+        }
+    }
+    
+}
+#endif
